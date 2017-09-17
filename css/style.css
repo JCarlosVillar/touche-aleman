@@ -7,6 +7,53 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+/* -------------------MARCOS--------------------------- */
+#dropdown{
+	display: flex;
+	flex-direction: row;
+	margin-top: 17px;
+	margin-left: 15px;
+	color: white;
+}
+#dropdown:hover{
+	color:#628d0f;
+	cursor: pointer;
+}
+#dropdown p{
+	margin-right: 10px;
+}
+
+#languages{
+	background-color: transparent;
+}
+
+#languages li{
+	/*border: 1px solid #628d0f;*/
+	border-top: 1px solid #628d0f;
+	padding: 3px;
+	color: white;
+	background-color: #262626;
+	margin-left: 15px;
+}
+#languages li:first-child{
+	border-top: none;
+}
+#languages li:hover{
+	color:#628d0f;
+	cursor: pointer;
+}
+
+.optionsDown{
+	display: block;
+}
+
+.optionsUp{
+	display: none;
+}
+
+/* -------------------MARCOS--------------------------- */
+
 h2 {
 	margin: 0 0 20px 0;
 	font-weight: 500;
@@ -122,6 +169,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #262626 !important;
 	padding: 0 !important;
 	padding: 10px 0 !important;
+	/*height: 75px; /* Para no aumentar el tamaño al abrir la lista */
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #8eb640 !important;
@@ -181,6 +229,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	position: relative;
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.4);

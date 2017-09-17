@@ -49,11 +49,24 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about" class="page-scroll">About</a></li>
-          <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
-          <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
-          <li><a href="#team" class="page-scroll">Chefs</a></li>
-          <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
+          <li><a tkey="menu1" href="#about" class="page-scroll">NOSOTROS</a></li>
+          <li><a tkey="menu2" href="#restaurant-menu" class="page-scroll">MENU</a></li>
+          <li><a tkey="menu3" href="#portfolio" class="page-scroll">GALERIA</a></li>
+          <li><a tkey="menu4" href="#team" class="page-scroll">MAPA</a></li>
+          <li><a tkey="menu5" href="#call-reservation" class="page-scroll">CONTACTO</a></li>
+          <li>
+            <div .class="selection">
+              <div id="dropdown">
+                 <p tkey="languageselect" id="languageselect">ESPAÑOL<p><i class="fa fa-angle-down"></i>
+              </div>
+              <ul id="languages">
+                <li tkey="language1" class="optionsUp">ESPAÑOL</li>
+                <li tkey="language2" class="optionsUp">INGLES</li>
+                <li tkey="language3" class="optionsUp">FRANCES</li>
+                <li tkey="language4" class="optionsUp">ALEMAN</li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -67,8 +80,8 @@
           <div class="row">
             <div class="intro-text">
               <h1>Touché</h1>
-              <p>Restaurant / Coffee / Pub</p>
-              <a href="#about" class="btn btn-custom btn-lg page-scroll">Discover Story</a> </div>
+              <p tkey="paragraf1">Cafeteria / Albergue</p>
+              <a tkey="button1" href="#about" class="btn btn-custom btn-lg page-scroll">¿Quienes somos?</a> </div>
           </div>
         </div>
       </div>
@@ -83,11 +96,11 @@
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="about-text">
-            <h2>Our Restaurant</h2>
+            <h2 tkey="title1">Sobre Nosotros</h2>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-            <h3>Awarded Chefs</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+            <p tkey="description1">Nos encontramos a 5.8km de Melide en el pueblo de Boente. Tenemos servicio de lavanderia y wifi.</p>
+            <h3 tkey="title2">Etapa del camino de Santiago</h3>
+            <p tkey="description2">Etapa 12 del camino de Santiago: Melide-O pedrouzo.</p>
           </div>
         </div>
       </div>
@@ -97,16 +110,16 @@
   <div id="restaurant-menu">
     <div class="section-title text-center center">
       <div class="overlay">
-        <h2>Menu</h2>
+        <h2 tkey="menu2">Menu</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+        <p tkey="descriptionmenu">Disponemos de la siguiente variedad de platos</p>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-6">
           <div class="menu-section">
-            <h2 class="menu-section-title">Breakfast & Starters</h2>
+            <h2 tkey="breakfast" class="menu-section-title">Desayunos y entrantes</h2>
             <hr>
             <div class="menu-item">
               <div class="menu-item-name"> Delicious Dish </div>
@@ -132,7 +145,7 @@
         </div>
         <div class="col-xs-12 col-sm-6">
           <div class="menu-section">
-            <h2 class="menu-section-title">Main Course</h2>
+            <h2 tkey="maincourse" class="menu-section-title">Primer plato</h2>
             <hr>
             <div class="menu-item">
               <div class="menu-item-name"> Delicious Dish </div>
@@ -160,7 +173,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-6">
           <div class="menu-section">
-            <h2 class="menu-section-title">Dinner</h2>
+            <h2 tkey="dinner" class="menu-section-title">Cena</h2>
             <hr>
             <div class="menu-item">
               <div class="menu-item-name"> Delicious Dish </div>
@@ -186,7 +199,7 @@
         </div>
         <div class="col-xs-12 col-sm-6">
           <div class="menu-section">
-            <h2 class="menu-section-title">Coffee & Drinks</h2>
+            <h2 tkey="drinks" class="menu-section-title">Bebidas</h2>
             <hr>
             <div class="menu-item">
               <div class="menu-item-name"> Delicious Dish </div>
@@ -217,9 +230,8 @@
   <div id="portfolio">
     <div class="section-title text-center center">
       <div class="overlay">
-        <h2>Gallery</h2>
+        <h2 tkey="menu3">Gallery</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
       </div>
     </div>
     <div class="container">
@@ -228,10 +240,10 @@
           <ul class="cat">
             <li>
               <ol class="type">
-                <li><a href="#" data-filter="*" class="active">All</a></li>
-                <li><a href="#" data-filter=".breakfast">Breakfast</a></li>
-                <li><a href="#" data-filter=".lunch">Lunch</a></li>
-                <li><a href="#" data-filter=".dinner">Dinner</a></li>
+                <li><a tkey="dish1" href="#" data-filter="*" class="active">Todos</a></li>
+                <li><a tkey="dish2" href="#" data-filter=".breakfast">Desayuno</a></li>
+                <li><a tkey="dish3" href="#" data-filter=".lunch">Comida</a></li>
+                <li><a tkey="dish4" href="#" data-filter=".dinner">Cena</a></li>
               </ol>
             </li>
           </ul>
@@ -381,9 +393,9 @@
     <div class="overlay">
       <div class="container">
         <div class="col-md-10 col-md-offset-1 section-title">
-          <h2>Meet Our Chefs</h2>
+          <h2 tkey="menu4">Mapa</h2>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+          <p tkey="descriptionmap">Nos encontramos a 5.8km de Melide en el pueblo de Boente.</p>
         </div>
         <div id="row">
           <div class="col-md-4 team">
@@ -420,16 +432,16 @@
   <!-- Call Reservation Section -->
   <div id="call-reservation" class="text-center">
     <div class="container">
-      <h2>Want to make a reservation? Call <strong>1-887-654-3210</strong></h2>
+      <h2 tkey="reservation">Want to make a reservation? Call <strong>1-887-654-3210</strong></h2>
     </div>
   </div>
   <!-- Contact Section -->
   <div id="contact" class="text-center">
     <div class="container">
       <div class="section-title text-center">
-        <h2>Contact Form</h2>
+        <h2 tkey="menu5">Contact</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+        <p tkey="descriptioncontact">Si necesitas ayuda o informacion mandanos un mensaje.</p>
       </div>
       <div class="col-md-10 col-md-offset-1">
         <form name="sentMessage" id="contactForm" novalidate>
@@ -452,7 +464,7 @@
             <p class="help-block text-danger"></p>
           </div>
           <div id="success"></div>
-          <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+          <button tkey="send" type="submit" class="btn btn-custom btn-lg">Enviar Mensaje</button>
         </form>
       </div>
     </div>
@@ -460,24 +472,23 @@
   <div id="footer">
     <div class="container text-center">
       <div class="col-md-4">
-        <h3>Address</h3>
+        <h3 tkey="addres">Direccion</h3>
         <div class="contact-item">
           <p>4321 California St,</p>
           <p>San Francisco, CA 12345</p>
         </div>
       </div>
       <div class="col-md-4">
-        <h3>Opening Hours</h3>
+        <h3 tkey="openinghours">Horario</h3>
         <div class="contact-item">
-          <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
-          <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+          <p>Mon-Sun: 8:00 AM - 00:00 PM</p>
         </div>
       </div>
       <div class="col-md-4">
-        <h3>Contact Info</h3>
+        <h3 tkey="contactitem">Contact Info</h3>
         <div class="contact-item">
-          <p>Phone: +1 123 456 1234</p>
-          <p>Email: info@company.com</p>
+          <p tkey="phone">Phone: +1 123 456 1234</p>
+          <p tkey="email">Email: info@company.com</p>
         </div>
       </div>
     </div>
@@ -508,6 +519,11 @@
       $(this).closest("div").children("div").toggle();
     });
   </script>
+
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="js/lang.js"></script>
+
+
 
 </body>
 
