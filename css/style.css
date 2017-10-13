@@ -413,39 +413,40 @@ ol.type li a:hover {
 	opacity: 1;
 }
 /* Team Section */
-#team {
+#map {
 	color: #fff;
-	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
+	/*background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;*/
+	background: url("https://maps.googleapis.com/maps/api/staticmap?center=Melide+la+coru%C3%B1a&zoom=12&size=800x800&maptype=roadmap&sensor=false");
 	background-size: cover;
 }
-#team .overlay {
+#map .overlay {
 	padding: 120px 0 80px 0;
 	background: rgba(0, 0, 0, 0.6);
 }
-#team h2, #team p {
+#map h2, #map p {
 	color: #fff;
 }
-#team hr {
+#map hr {
 	background: #fff;
 }
-#team h3 {
+#map h3 {
 	color: #fff;
 	font-weight: 400;
 	font-size: 20px;
 	margin: 5px 0;
 }
-#team img {
+#map img {
 	width: 280px;
 }
-#team .thumbnail {
+#map .thumbnail {
 	background: transparent;
 	border: 0;
 }
-#team .thumbnail .team-img {
+#map .thumbnail .map-img {
 	display: inline-block;
 	position: relative;
 }
-#team .thumbnail .team-img:before {
+#map .thumbnail .map-img:before {
 	display: block;
 	content: '';
 	position: absolute;
@@ -455,10 +456,10 @@ ol.type li a:hover {
 	left: 8px;
 	border: 1px solid rgba(255, 255, 255, 0.2);
 }
-#team .thumbnail .caption {
+#map .thumbnail .caption {
 	padding-top: 10px;
 }
-#team .thumbnail .caption p {
+#map .thumbnail .caption p {
 	color: rgba(255,255,255,0.7);
 	padding: 0 10px;
 	font-size: 15px;
@@ -615,4 +616,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 }
 #footer a:hover {
 	color: #333;
+}
+#map-canvas{
+	height: 550px;
+  margin: 0;
+  padding: 0;
 }
