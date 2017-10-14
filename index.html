@@ -67,6 +67,11 @@
               </ul>
             </div>
           </li>
+          <li><a href="#about" class="page-scroll">About</a></li>
+          <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
+          <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
+          <li><a href="#map" class="page-scroll">Find Us</a></li>
+          <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -389,42 +394,21 @@
     </div>
   </div>
   <!-- Team Section -->
-  <div id="team" class="text-center">
+  <div id="map" class="text-center">
     <div class="overlay">
       <div class="container">
         <div class="col-md-10 col-md-offset-1 section-title">
           <h2 tkey="menu4">Mapa</h2>
+          <h2>Find Us!</h2>
           <hr>
           <p tkey="descriptionmap">Nos encontramos a 5.8km de Melide en el pueblo de Boente.</p>
         </div>
         <div id="row">
-          <div class="col-md-4 team">
-            <div class="thumbnail">
-              <div class="team-img"><img src="img/team/01.jpg" alt="..."></div>
-              <div class="caption">
-                <h3>Mike Doe</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-              </div>
-            </div>
+
+          <div class="col-md-12 team">
+            <div id="map-canvas"></div>
           </div>
-          <div class="col-md-4 team">
-            <div class="thumbnail">
-              <div class="team-img"><img src="img/team/02.jpg" alt="..."></div>
-              <div class="caption">
-                <h3>Chris Doe</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 team">
-            <div class="thumbnail">
-              <div class="team-img"><img src="img/team/03.jpg" alt="..."></div>
-              <div class="caption">
-                <h3>Ethan Doe</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
@@ -513,13 +497,8 @@
   <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
   <script type="text/javascript" src="js/contact_me.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
-
-  <script type="text/javascript">
-    $('.menu-section-title').click(function(){
-      $(this).closest("div").children("div").toggle();
-    });
-  </script>
-
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6stfs34W5EAmWZYRcVadxZjXz7piCslg&v=3.exp"></script>
+  <script type="text/javascript" src="js/maps.js"></script>
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="js/lang.js"></script>
 
