@@ -7,7 +7,12 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
-
+#logo-top {
+	height: 4.75vh;
+}
+#logo-cabecera {
+	height: 95px;
+}
 /* -------------------MARCOS--------------------------- */
 #dropdown{
 	display: flex;
